@@ -42,8 +42,9 @@ enum OptionsAlignment {
       case OptionsAlignment.top:
         return Aligned(
           widthFactor: widthFactor,
-          follower: Alignment.bottomCenter,
-          target: Alignment.topCenter,
+          follower: Alignment.topCenter,
+          target: Alignment.bottomCenter,
+          portal:  Alignment.bottomCenter ,
         );
       case OptionsAlignment.bottom:
         return Aligned(
